@@ -1,0 +1,52 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    height: 100%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+
+textarea{
+    width:100%;
+    width:100%;
+    max-width: 100%;
+    resize:none;
+}
+table {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    max-width: 100%;
+    border-width: 1px;
+    border-color: black;
+}
+
+textarea{
+    height:200px;
+}
+
+#Enable{
+    display:inline;
+}
+#btn-download{
+    display: inline;
+}
+#fileExtension {
+    display: inline;
+}
+.about-page{
+    text-align:justify;
+}
